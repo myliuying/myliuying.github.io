@@ -4,7 +4,7 @@
     <title><![CDATA[hello]]></title>
     <url>%2F2024%2F02%2F19%2FHello%20world!%2F</url>
     
-      <content type="text"><![CDATA[Hello world! This is my first blog and I do not kown how to write it yet. ​ I feel sorry about it. But today is a meaningful date. ​ If you are reading this blog, I feel it an honor. Once-in-a-million. This is just miracle. #include &lt;stdio.h&gt; ​ void main () {printf(“hello world!”);} 创建脚注格式类似这样 ^RUNOOB。 带下划线文本 Wish we can company you from today on! ^from today on]]></content>
+      <content type="text"><![CDATA[Hello world! This is my first blog and I do not kown how to write it yet. ​ I feel sorry about it. But today is a meaningful date. ​ If you are reading this blog, I feel it an honor. Once-in-a-million. This is just miracle. #include &lt;stdio.h&gt; ​ void main () {printf(“hello world!”);} 创建脚注格式类似这样 ^RUNOOB。 带下划线文本 Wish we can company you from today on! [^from today on] [^from today on]: [hello | 轻流扇萤 (zywifeliuying.top) ](https://zywifeliuying.top/2024/02/19/Hello world!&#x2F;#more) 好像有语法错误，脆皮学生忘记英语了]]></content>
     
       <categories>
         <category>first write</category>

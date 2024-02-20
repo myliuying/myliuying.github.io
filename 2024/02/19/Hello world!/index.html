@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="Hello world!   This is my first blog and I do not kown how to write it yet.">
@@ -28,7 +28,7 @@
 <meta property="og:description" content="Hello world!   This is my first blog and I do not kown how to write it yet.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-02-19T08:15:43.000Z">
-<meta property="article:modified_time" content="2024-02-20T10:18:06.613Z">
+<meta property="article:modified_time" content="2024-02-20T10:35:14.210Z">
 <meta property="article:author" content="孑瓜子">
 <meta name="twitter:card" content="summary">
 
@@ -221,6 +221,10 @@
 
 
 
+  <i class="fa fa-thumb-tack"></i>
+  <font color=7D26CD>置顶</font>
+  <span class="post-meta-divider">|</span>
+
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
@@ -234,7 +238,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-02-20 18:18:06" itemprop="dateModified" datetime="2024-02-20T18:18:06+08:00">2024-02-20</time>
+                <time title="修改时间：2024-02-20 18:35:14" itemprop="dateModified" datetime="2024-02-20T18:35:14+08:00">2024-02-20</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -275,9 +279,10 @@
 <p>创建脚注格式类似这样 <a href="??????">^RUNOOB</a>。</p>
 <p><u>带下划线文本</u></p>
 <hr>
-<p><em><strong>Wish we can company you from today on!</strong></em>     <a href="%E5%A5%BD%E5%83%8F%E6%9C%89%E8%AF%AD%E6%B3%95%E9%94%99%E8%AF%AF%EF%BC%8C%E8%84%86%E7%9A%AE%E5%AD%A6%E7%94%9F%E5%BF%98%E8%AE%B0~~%E8%8B%B1%E8%AF%AD~~%E4%BA%86">^from today on</a></p>
+<p><em><strong>Wish we can company you from today on!</strong></em>     [^from today on]</p>
 <hr>
 <hr>
+<p>[^from today on]:  [hello | 轻流扇萤 (zywifeliuying.top) ](<a target="_blank" rel="noopener" href="https://zywifeliuying.top/2024/02/19/Hello">https://zywifeliuying.top/2024/02/19/Hello</a> world!&#x2F;#more) 好像有语法错误，脆皮学生忘记<del>英语</del>了</p>
 
     </div>
 
@@ -304,7 +309,7 @@
 <div>
 <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>孑瓜子
+    <strong>本文作者： </strong>孑瓜子   
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
@@ -312,6 +317,7 @@
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+
   </li>
 </ul>
 </div>
@@ -416,9 +422,6 @@
       </div>
   </nav>
 </div>
-  <div class="cc-license motion-element" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
-  </div>
 
 
 
@@ -454,7 +457,7 @@
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共85字</span>
+  <span class="post-count">博客全站共121字</span>
   <span class="post-meta-divider">|</span>
   本站总访问量<span id="busuanzi_value_site_pv"></span>次
   <span class="post-meta-divider">|</span>
