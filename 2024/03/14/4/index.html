@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://zywifeliuying.top/2024/03/14/4/2.png">
 <meta property="og:image" content="https://zywifeliuying.top/2024/03/14/4/3.jpeg">
 <meta property="article:published_time" content="2024-03-14T12:11:24.000Z">
-<meta property="article:modified_time" content="2024-03-16T14:50:46.925Z">
+<meta property="article:modified_time" content="2024-03-16T15:12:30.403Z">
 <meta property="article:author" content="孑瓜子">
 <meta property="article:tag" content="C课设">
 <meta name="twitter:card" content="summary">
@@ -242,7 +242,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-03-16 22:50:46" itemprop="dateModified" datetime="2024-03-16T22:50:46+08:00">2024-03-16</time>
+                <time title="修改时间：2024-03-16 23:12:30" itemprop="dateModified" datetime="2024-03-16T23:12:30+08:00">2024-03-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -296,6 +296,21 @@
 <p><strong><img src="/2024/03/14/4/3.jpeg" class="" title="这是一张图片"></strong></p>
 <hr>
 <p>  <strong>如果还是不会使用BC，可以去看看别人怎么用的。但基本全靠自己，当然也可以问我，用视频教学（目前还不知道怎么上传视频），前提是你能找到我（doge）。</strong></p>
+<h2 id="头文件的编写"><a href="#头文件的编写" class="headerlink" title="头文件的编写"></a>头文件的编写</h2><p>(三月16日更新)</p>
+<p>  头文件编写还是有固定的套路的，一般你自己直接复制粘贴就行。</p>
+<p>  这里介绍通用的模板：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#ifndef _COMMON_H_  // 这里的意思是if not define </span><br><span class="line">#define _COMMON_H_  //则define; common.h,是你自己命名的头文件名字，注意文件后缀</span><br><span class="line">//这里就是函数声明，和一些struct的引用，或者define a 1;什么什么的</span><br><span class="line">void hanshu();</span><br><span class="line"></span><br><span class="line">#endif</span><br></pre></td></tr></table></figure>
+
+<p>  那么这个的原理就是条件编译，其目的在于<del>水代码</del> 防止头文件重复包含（？。有兴趣自己去CSDN博客，或者edge什么的搜就行。</p>
+<p>  当然一般而言我们还会编写一个总头文件，一般命名为common.h; 你可以发现它就是如同这样</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">#ifndef _COMMON_H_</span><br><span class="line">#define _COMMON_H_</span><br><span class="line">/*</span><br><span class="line">----------------------------</span><br><span class="line">包含所有的头文件，</span><br><span class="line">以后引用头文件只需要 include &quot;common.h&quot;；</span><br><span class="line">更加方便，代码简洁</span><br><span class="line">----------------------------</span><br><span class="line">*/</span><br><span class="line">#include&lt;graphics.h&gt;</span><br><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;stdlib.h&gt;</span><br><span class="line">#include&lt;bios.h&gt;</span><br><span class="line">#include&lt;string.h&gt;</span><br><span class="line">#include&lt;dos.h&gt;</span><br><span class="line">#include&lt;math.h&gt;</span><br><span class="line">#include&lt;time.h&gt;</span><br><span class="line">#include &lt;conio.h&gt;</span><br><span class="line">//上面是BC自带的头文件，下面为自己编写的</span><br><span class="line"></span><br><span class="line">//----必备</span><br><span class="line">#include&quot;mouse.h&quot;//鼠标库</span><br><span class="line">#include&quot;hz.h&quot;//汉字库</span><br><span class="line"></span><br><span class="line">//--界面</span><br><span class="line">#include &quot;welcome.h&quot;//开屏动画</span><br><span class="line">#include &quot;mainpage.h&quot;//主界面</span><br><span class="line">#include &quot;mainfunc.h&quot;//农田界面</span><br><span class="line">#include &quot;history.h&quot;//历史记录界面</span><br><span class="line">#include &quot;usehelp.h&quot;//系统说明界面</span><br><span class="line"></span><br><span class="line">//---func:功能文件</span><br><span class="line">#include &quot;move.h&quot;//配合鼠标使用的鼠标move函数</span><br><span class="line">#include &quot;showtime.h&quot;//显示时间函数</span><br><span class="line">#include &quot;shuju.h&quot;//数据库</span><br><span class="line"></span><br><span class="line">#endif</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>  当然，这是我编写的尚未完成品。注意自己编写的 头文件最好用”” ，爆烂的C自带的用&lt;&gt;，具体原因有兴趣自己查找。</p>
+<p>  那么关于头文件的全部暂且就到这里了。当然你建立工程的时候如果把头文件不需要手动添加。</p>
+<p>拜拜了~</p>
+<hr>
+<p><strong></strong></p>
+<hr>
 
     </div>
 
@@ -351,8 +366,8 @@
       <i class="fa fa-chevron-left"></i> The moon And Sixpence
     </a></div>
       <div class="post-nav-item">
-    <a href="/2024/03/16/5/" rel="next" title="C课设拯救计划">
-      C课设拯救计划 <i class="fa fa-chevron-right"></i>
+    <a href="/2024/03/16/6/" rel="next" title="内心卓越，吾为自己">
+      内心卓越，吾为自己 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -420,7 +435,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C%E8%AF%BE%E8%AE%BE%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92"><span class="nav-number">1.</span> <span class="nav-text">C课设拯救计划</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#BC%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">1.1.</span> <span class="nav-text">BC最基本的用法</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C%E8%AF%BE%E8%AE%BE%E6%8B%AF%E6%95%91%E8%AE%A1%E5%88%92"><span class="nav-number">1.</span> <span class="nav-text">C课设拯救计划</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#BC%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">1.1.</span> <span class="nav-text">BC最基本的用法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%B4%E6%96%87%E4%BB%B6%E7%9A%84%E7%BC%96%E5%86%99"><span class="nav-number">1.2.</span> <span class="nav-text">头文件的编写</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -436,7 +451,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -489,7 +504,7 @@
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共3.6k字</span>
+  <span class="post-count">博客全站共4.1k字</span>
   <span class="post-meta-divider">|</span>
   本站总访问量<span id="busuanzi_value_site_pv"></span>次
   <span class="post-meta-divider">|</span>
