@@ -2,6 +2,16 @@
 <search>
   <entry>
     <title><![CDATA[爆烂的C下载（附）]]></title>
+    <url>%2F2024%2F04%2F21%2Ftop%2F</url>
+    
+      <content type="text"><![CDATA[Preface​ 一些前言 网站越来越卡了不知道为什么，也许是东西太多了。 这里说说一些东西吧。首先便是这个透明，鉴于我已经忘记了怎么调，所以凑合着看，看不清就别看。（^-^）就是文字不清楚（忘记了怎么改了，而且为了避免麻烦，所以再三考虑还是不改了 界面卡顿问题：这应该是因为图片太大，所以加载比较慢。这没办法 至于域名问题，也可能就是所谓的网址？ 目前是斥了100多r买了三年之约。但似乎没实名？也不清楚了解这部分。但总之能访问就对了。关于三年之后，当眼界与知识全部被遗忘过后，留下了纯粹的孤身一人，可能会换个域名，或者选择破产，直接用最本来朴实无华的网址。好像是myliuiying.github.io (?)，忘记了。 当然，也有可能重新建立一个博客，换一种主题，比如butterfly(?好像叫这)。 关于下面的评论。好像要用magic才能注册一个账号，然后评论？评论可能不会回复。因为我估计没有什么人会评论。 关于下面的微信二维码，请打钱支持。毕竟一个域名一年大概要花35r，具体已经无从考证。 关于文章要密码。建议线下单杀，没有密码说明没有权限。或者没打钱（评论 其他就没什么可说的。 所谓相见即有缘，但是终究不过人生中匆匆而过一缕罢了。 (嘿嘿) 请付钱。]]></content>
+    
+      <tags>
+        <tag>preface</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[爆烂的C下载（附）]]></title>
     <url>%2F2024%2F04%2F16%2F7%2F</url>
     
       <content type="text"><![CDATA[爆烂的C下载（附）​ 纯净的BC下载，仅供提前学习 ​ 先说说为什么这么长时间没更新。 原因有很多。一是上周六的数学期中考试，而是C课设马上就验收了。三是四月份的事情实在是太多，又是体测又是其他的，清明也不过一天假，不断的调休。便有了看似很多的三天假期。各种课又多…… 压榨的牲口为数不多的精力。 但为了说明作者仍然活着（这是一件多么可喜的事情），于是便有了这个BC的下载链接。使用方法很简单，解压后，进入DISK_C(我通常把这个文件夹叫作虚拟C盘)，里面的CODE文件夹就是代码区域，BORLANDC文件夹是BC自带的文件。CODE里面的SOURCE文件夹便是你的工作路径。也就是说，你只需要把你编写的.C和.h文件放到SOURCE文件夹中即可。OUTPUT是每次编译会产生的垃圾。可以随时删除。TC0000.SWP也是垃圾。 总之，BC自己摸索，便会使用。 下面提供下载链接 下次更新估计要到五一劳动节。如果没更新，说明挂科了（） 点击下载爆烂的C (嘿嘿嘿😍)]]></content>
@@ -37,10 +47,10 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[The moon And Sixpence]]></title>
+    <title><![CDATA[The Moon And Sixpence]]></title>
     <url>%2F2024%2F02%2F29%2F3%2F</url>
     
-      <content type="text"><![CDATA[f842161a9e5a07c6aecdb110fb678cdd53f602b4eed381a9d45d4c3707fd6fd598413d4f81d64cd8af9c88d7640912da1fbc2a0a9a694b113efe44f5b8f01c2d4e956dfc1a3e5773bc30a798edaf166fd6d5f8bf0815d69fa98984aea05d83f29e28eeb1f728d8c1ed0fff831da2d87c34a9bc57bf4d45dbbd2099033f0be541e8b3b865fb12f2304a076074263da1d87217cb11907dc683b1f38a72694a9f3c38156206b25579097901cf35c52929dfeff8fdaf93817b1124f7b470cd9be4b2341ac47f0119e95d5b82aff967f1ba5e115ae063171f970267d80f4377f2ee665bcf5eaad8ac548b03ce84f13cfbfe735fa2ab1417a604edad53a977794db311366382c5207178485887599ad38481e58c71d43e224c83633e3b16f4605be508af3609a011f5664b2316d704832c01e5a476737ef3d60758f296dd5629dbb52968a5c044455b78c8c1357171c6b0f558bcd178d42f493e0c47945683f7aee317c834b847553e730973db4b32a6bd0263b08e1b0d815e069240d3e9019b3e8f806896f1455e60efecf87a551063b59c61dbc8610942ad541ad82b69c5ec21b367890ef533b3b2fd7ce439b56460c12380dd821437534a32ef9bb24ad628951d398706f2bc012a5fddfb826c4d05e59b9cc24c3531dd6e0a3484d2a7e8c41257429748e4acedd44717028f6369852051ede6db1ba8c92edd5e2f04a67dafbf6660bf9b3544f5b04c18fadd1e45cd50fd5e Hey, password is required here.]]></content>
+      <content type="text"><![CDATA[f842161a9e5a07c6aecdb110fb678cdd53f602b4eed381a9d45d4c3707fd6fd598413d4f81d64cd8af9c88d7640912da1fbc2a0a9a694b113efe44f5b8f01c2d4e956dfc1a3e5773bc30a798edaf166fd6d5f8bf0815d69fa98984aea05d83f29e28eeb1f728d8c1ed0fff831da2d87c34a9bc57bf4d45dbbd2099033f0be541e8b3b865fb12f2304a076074263da1d87217cb11907dc683b1f38a72694a9f3c38156206b25579097901cf35c52929dfeff8fdaf93817b1124f7b470cd9be4b2341ac47f0119e95d5b82aff967f1ba5e115ae063171f970267d80f4377f2ee665bcf5eaad8ac548b03ce84f13cfbfe735fa2ab1417a604edad53a977794db311366382c5207178485887599ad38481e58c71d43e224c83633e3b16f4605be508af3609a011f5664b2316d704832c01e5127ccd046908236f5f44e443fa18e56763a13c4a48ff816975cfaf73a85d3ff325861d028d72e1467a62ab0b83f1228520425783d9500aa6e36d228fcc4006ae09ce405bab92a77d88db5b41ea990df5aff4b1f68c7a7df0f95323b30aee19711b44ba395ab41cb3442720e2df47789d1b38293761cea388fed1c56050490af26e0a2dcbbaed735ceb96b69eb0981001c8ac62efd672c9adca08503519b2d5e06da684930eda156fa0f6ab9c894665e190cb828061c6685e03169a268efa0026b49ee02134dd9fc3453e744d7381dd2d6799e6147f9df64defebc853ee06b720e9123b9e20c3145b48d682454fff303cec6c2f03c333768de732049d1af05a4dd4a0d5660a4e70bebb2dbae85e816071 Hey, password is required here.]]></content>
     
       <categories>
         <category>观书</category>
