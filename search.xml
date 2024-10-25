@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[picture]]></title>
     <url>%2F2024%2F10%2F25%2F20241025%2F</url>
     
-      <content type="text"><![CDATA[以前的记录**preface:**记录一下以前（有一些是小学画的，有些是高二画的）]]></content>
+      <content type="text"><![CDATA[以前的记录preface: 记录一下以前（有一些是小学画的，有些是高二画的）]]></content>
     
+      <categories>
+        <category>其他</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[当下社会中的竞争与合作]]></title>
